@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class CRC1 {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter message bits: ");   // data to be transmitted
+        System.out.print("Enter message bits: "); // data to be transmitted
         String message = sc.nextLine();
-        System.out.print("Enter generator: ");      // generator polynomial for crc calculation
+        System.out.print("Enter generator: ");// generator polynomial for crc calculation
         String generator = sc.nextLine();
 
         int data[] = new int[message.length() + generator.length() - 1];
@@ -32,7 +32,6 @@ public class CRC1 {
         System.out.println();
 		// It prints the message bits followed by the calculated CRC checksum.
 
-        
         System.out.print("Enter checksum code: ");
         message = sc.nextLine();
         System.out.print("Enter generator: ");
