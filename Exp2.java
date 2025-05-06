@@ -1,5 +1,6 @@
 
 
+
 public class Exp2 {
     public static String bitStuffing(String data) {
         StringBuilder stuffedData = new StringBuilder();
