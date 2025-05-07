@@ -17,6 +17,7 @@ public class Exp2 {
         }
         return stuffedData.toString();
     }
+    
     public static String bitDestuffing(String stuffedData) {
         StringBuilder destuffedData = new StringBuilder();
         int count = 0;
